@@ -20,8 +20,11 @@
 *.utf8.md
 *.knit.md
 
-# Data and outputs (kept local)
-data/
+# ignore everything in data/ and outputs/
+# but track READMEs that document the data
+data/**
+!data/**/
+!data/**/README.md
 figures/
 outputs/
 
